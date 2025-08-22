@@ -1,0 +1,39 @@
+body{
+    background: #722a9b;
+    background: linear-gradient(90deg, rgba(114, 42, 155, 1) 0%, rgba(193, 87, 199, 1) 50%, rgba(237, 83, 83, 1) 100%);
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    color: white;
+}
+
+.title {
+    font-size: 2.5cm; /* very big! try 2.5rem for more normal */
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    color: white;
+    display: block; /* since <a> is inline by default */
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.info {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 0 auto 40px;
+    text-align: left;
+}
+
+.tennis{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    top: -200px;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 40px auto 0;
+    text-align: center;
+}
